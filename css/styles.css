@@ -1,7 +1,11 @@
+body {
+ font-family: 'Open Sans';
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.1);
     width: 100vw;
     position: fixed;
     padding: 5px 70px;
@@ -29,6 +33,7 @@
     display: flex;
     width: 80vh;
     flex-direction: column;
+    border-radius: 1em;
 }
 /* Button code lifted from https://codepen.io/Colt/pen/RwWbKee*/
 .header-button {
